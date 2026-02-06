@@ -9,7 +9,7 @@
 - is essentially a sizeable read-only database accessible to all users within the domain, regardless of their
   priviledge level, a **basic AD user account** with no added privileges can enumerate objects within the domain,
   regardless of their privilege level.
-- this fact maakes it extremely important to properly secure an AD implementation because ANY user account,
+- this fact makes it extremely important to properly secure an AD implementation because ANY user account,
   can be used to enumerate the domain and hunt for misconfigurations and flaws thouroughly.
 
 <img width="750" height="600" alt="image" src="https://github.com/user-attachments/assets/7d3b1604-5264-4bc0-83ba-a30f6ca3f2aa" />
